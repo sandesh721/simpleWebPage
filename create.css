@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background: linear-gradient(270deg ,rgb(236, 39, 236),#1081eb); 
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form{
+    width: 320px;
+    border: none ;
+    margin: 40px;
+    height: 420px;
+    /* background:linear-gradient(270deg,#3eadcf,#abe9cd); */
+    background: white;
+    border-radius: 5px;
+    
+}
+.container{
+     display: flex; 
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+input{
+    width: 200px;
+    font-size: 0.8rem;
+    outline: none;
+    /* border-bottom: 1px solid ; */
+    border: none;
+    background: transparent;
+    border-bottom: 1.5px solid #ccc;
+    padding: 1px;
+    position: relative;
+    left: 40px;
+    display:inline-block ;
+    align-items: center;
+    justify-content: center;
+    color: rgb(85, 84, 84);
+    border-radius: 4px;
+    
+}
+/* input:hover{
+    border-bottom: 1px solid;
+} */
+.div{
+    font-size: 11px;
+    text-shadow: 0px 0px 1.1px red ;
+    color: red;
+    position: relative;
+    left: 40px;
+    top: 2px;
+    
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+label{
+    position: relative;
+    top: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    left: 40px;
+    transition: 0.5s;
+    color: rgb(6, 233, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    /* color: transparent;made trasperant */
+}
+/* label:hover{
+    position: relative;
+    font-size: 14px;
+    top: 9px;
+ } */
+ button{
+     width: 60%;
+     margin-top: 10px;
+     padding: 5px;
+     font-size: 17px;
+     margin-left: 60px; 
+     outline: none;
+     border: none;
+     border-radius: 5px;
+     background: linear-gradient(270deg ,rgb(236, 39, 236),#1081eb);  
+     color: white;
+ }
+ button:hover{
+    background: linear-gradient(270deg ,rgb(233, 91, 233),#55a4ee);
+    transform: scale(1.05);
+ }
+ .forgotPass{
+     text-decoration: none;
+     font-size: 14px;
+     position: relative;
+     left: 40px;
+     top: 5px;
+ }
+ .createOne{
+     text-align: center;
+     margin-top: 12px;
+     color: black;
+     font-size: 14px;
+ }
+ a{
+    text-decoration: none; 
+    color: blue;
+ }

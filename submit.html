@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <script src="https://smtpjs.com/v3/smtp.js"></script> 
+    <link rel="stylesheet" href="./submit.css" />
+    <script src="./submit.js"></script>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="./fontawesome-free-5.14.0-web/css/all.css  " />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navBar">
+        <ul class="ull" style="display: none;">
+           <div class="minus" onclick="cross()">&times;</div>
+          <li class="list home"><a href="#">Home</a></li>
+          <li class="list"><a href="#head ">About</a></li>
+          <li class="list"><a href="index.html">Login</a></li>
+          <li class="list" id="conc"><a >Contact</a></li>
+          <li class="list"><a href="index.html">Logout</a></li>
+        </ul>
+      </div>
+      <div class="allHead">
+      <div class="main">
+        <i class="fas fa-bars fa-1x" onclick="bar()" id="bar"></i>
+      </div>
+      <div class="head" id="head">
+       
+        <div class="text"> 
+        </div>
+        <h2 class="tour">Lets take a tour</h2>
+      </div> 
+      <div class="about">
+          <h2 id="headings">About</h2>
+          <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, incidunt. Est esse quos facere eveniet libero sit incidunt recusandae sed laborum omnis eaque, delectus voluptates atque, ipsa modi porro assumenda.</p>
+      </div>
+          <div class="allcards">
+          <div class="card" id="card1">
+                <div class="imgs" id="img1">
+                    <img src="./images/image.jpg" alt="sea shore" class="cardImg">
+                    <h3>Sea Shore</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, corrupti!</p>
+                </div>
+          </div>
+          <div class="card" id="card2">
+                <div class="imgs" id="img2">
+                    <img src="./images/laptop.jpeg" alt="Laptop" class="cardImg">
+                    <h3>Laptop</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, corrupti!</p>
+                </div>
+          </div>
+          <div class="card" id="card3">
+                <div class="imgs" id="img3">
+                    <img src="./images/Nature-Wallpaper-HD-Desktop-free-download-620x349 (2).png" alt="Leaf" class="cardImg">
+                    <h3>Leaf</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, corrupti!</p>
+                </div>
+          </div>
+          </div>
+          <div class="me too">
+              <div id="myself">Myself</div>
+              <div class="allMy">
+              <div class="photo" >
+                  <img src="./images/balance-blur-boulder-close-up-355863.jpg" alt="" id="alt">
+              </div>
+              <div class="phpara">
+                <span>What about this?..</span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque autem distinctio dicta commodi libero explicabo fugit quod nesciunt facere sed.</p>
+                 <p>&emsp; Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur distinctio omnis ut, porro aliquam necessitatibus molestias eligendi beatae, natus nostrum aperiam quod expedita ab nulla doloribus repellendus asperiores quia  </p>
+
+              
+              </div>
+          </div>
+          </div><!--ends here -->
+          <div class="skills">
+            <span id="skills">Skills</span>
+            <div class="allSkills">
+              <div class="img got">
+                <div class="skill_content sks"><div class="skill_name">html</div><div class="percent">80%</div></div><img src="./images/abstract-art-artistic-blur-290617.jpg" alt=""></div>
+
+
+              <div class="img got"><div class="skill_content sks"><div class="skill_name">css</div><div class="percent">70%</div></div><img src="./images/abstract-art-background-blur-586744.jpg" alt=""></div>
+
+
+              <div class="img got"><div class="skill_content sks"><div class="skill_name">js</div><div class="percent">75%</div></div><img src="./images/beautiful-blur-close-up-delicate-259707.jpg" alt=""></div>
+
+
+              <div class="img got"><div class="skill_content sks"><div class="skill_name">c</div><div class="percent">60%</div></div><img src="./images/black-lighted-gaming-keyboard-841228.jpg" alt=""></div>
+
+
+              <div class="img got"><div class="skill_content sks"><div class="skill_name">python</div><div class="percent">50%</div></div><img src="./images/Nature-Wallpaper-HD-Desktop-free-download-620x349 (2).png" alt=""></div>
+
+
+              <div class="img got"><div class="skill_content sks"><div class="skill_name">yoga</div><div class="percent">20%</div></div><img src="./images/man-standing-with-two-hands-1191804.jpg" alt=""></div>
+
+              
+            </div>
+          </div>
+          <div class="contact" id="contact">
+            <span id="cont">Contact</span>
+            <div class="details">
+              <div class="content">
+             <div id="lbl">  <label for="name" class="lbl name">
+                Name
+              </label></div>
+            <input type="text" id="name"></div>
+              <div class="content">
+              <div id="lbl">  <label for="name" class="lbl email">
+                Email
+              </label></div>
+            <input type="email" id="email"></div>
+              <div class="content">
+             <div id="lbl">  <label for="name" class="lbl" id="num">
+                Mobile number
+              </label></div>
+            <input type="tel" id="msg" id="phone"></div>
+              <div class="content">
+                <div id="lbl">  <label for="name" class="lbl feedback">
+                Message
+              </label></div>
+            
+            <input type="text" id="emailmsg"></div> 
+            <div class="lastbtn">
+              <button id="emailsubmit" onclick="submitted()">Submit</button>
+            </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="imgfooter">
+              
+               <a href="https://www.instagram.com/yoga_sandesh_721/"><i class="fab fa-instagram-square fa-2x"></i></a>
+             <a href="tel:9611913373">
+                <i class="fas fa-phone-square-alt fa-2x"></i>
+             </a>
+             <a href="64647847+sandesh721@users.noreply.github.com">
+              <i class="fab fa-github-square fa-2x"></i>
+             </a>
+             <a href="#">
+                <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+             </a>
+            </div>
+          <div class="tex">Sandesh|@2020</div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

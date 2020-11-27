@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    scroll-behavior: smooth;
+}
+
+#plant{
+    width: 100%;
+    height: 300px;
+    opacity: 0.8;
+    display: inline;
+    position: relative;
+    top: -24px;
+    
+    
+}
+.navBar{
+    position: relative;
+    cursor: pointer;
+    animation: ease-in-out 1s;
+    
+    transition: .5s;
+}
+
+@keyframes navbar{
+    from{
+        
+        margin-top:0;
+        margin-left: 100%;
+       
+        transform: scale(.1);
+    }
+    top{
+        /* margin-top: 100%;
+        margin-left: 0rem; */
+    }
+}
+@keyframes cross{
+    from{
+        
+        margin-top:100%;
+        margin-left: 0;
+       
+        transform: scale(.1);
+    }
+    top{
+        /* margin-top: 100%;
+        margin-left: 0rem; */
+    }
+}
+.head{
+    background-image: url("./images/blur-close-up-focus-ground-401213.jpg");
+    height: 300px;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: -24px;
+    text-shadow: 1px 1px 3px;
+    /* background-attachment: scroll; */
+    /* opacity: .8; */
+}
+.tour{
+    position: relative;
+    top: 30px;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    padding: 5px;
+    color: coral;
+    font-weight: 200;
+    text-shadow: 1px 1px 5px;
+}
+#bar{
+    
+    float: right;
+    top: 15px;
+    position: relative;
+    right: 15px;
+    font-size: 24px;
+    z-index: 2;
+    
+
+}
+.text{
+    color:aqua;
+    font-size: 1.3rem; 
+    transition: 0.5s;   
+}
+.minus{
+    padding: 30px 60px 40px;
+    font-size: 3em;
+    text-align: right;
+    color: darkturquoise;
+}
+ul{
+    background-color: rgb(7, 7, 7);
+    height: 39em;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.list{
+    text-align: center;
+   font-weight: lighter;
+    padding: 23px;
+    font-size: 1.7rem;
+    font-style: oblique;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;   
+    font-variant: small-caps;
+    transition: .5s;
+    
+}
+.list:hover{
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px;
+}
+
+.cardImg{
+    width: 100px;
+    height: 80px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 5px rgb(138, 133, 133);
+}
+.imgs{
+    text-align: center;
+    padding: 75px;
+
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    transition: .5s ;
+    
+        box-shadow: 2px 3px 15px rgb(138, 133, 133);
+
+}
+.imgs:hover{
+    transform: scale(1.1); 
+    box-shadow: 2px 3px 15px rgb(138, 133, 133);
+}
+h3{
+    font-size: 1.4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(83, 82, 83);
+    
+}
+p{
+    color: rgb(68, 65, 68);
+}
+.about{
+    text-align: center;
+}
+#headings{
+    font-size:4rem;
+    font-family: monospace;
+    font-weight: 500;
+    color: rgb(51, 50, 51);
+    border-bottom: 3px solid aqua;
+    width: 130px;
+    margin: auto;
+}
+#para{
+    width: 24em;
+    margin: auto;
+    margin-top: 25px;
+}
+.me{
+    background-image: url("./images/silhouette-of-person-holding-glass-mason-jar-1274260.jpg");
+    height:100% ;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: -20;
+}
+.allMy{
+    /* background-image: url("./images/man-standing-with-two-hands-1191804.jpg"); */
+    /* background-size: contain; */
+    width: 20em;
+    
+    
+    background-repeat: no-repeat;
+    display: inline-block;
+    color: white;
+}
+#alt{
+    width: 12em;
+    height: 12em;
+    padding: 30px;
+    text-align: center;
+    border-radius: 30%;
+    margin: auto;
+
+}
+.phpara p{
+    font-size: 1.2em;
+    margin-left: 30px;
+    width: 350px;
+    color: white;
+    transition: .5 ease-in;
+}
+.phpara span{
+    margin-left: 30px;
+    font-size: 1.5em;
+   position: relative;
+   bottom: 10px;
+   border-bottom: 3px solid aqua;
+   
+}
+#myself{
+    color: aqua;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 10px;
+    border-bottom: 3px solid aqua ;
+    width: 150px;
+    margin: auto;
+    transition: .5s;
+}
+
+.got img{
+    width: 7em;
+    height: 7em;
+}
+
+.got {
+    position: relative; 
+    margin: 15px;
+    box-shadow: 4px 3px 5px rgb(90, 86, 86);
+    
+}
+.skill_content{
+    
+    position: absolute;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    right: 0; 
+    background-color: black;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition:.5s ;
+    text-align: center;
+    
+    
+}
+.got:hover .skill_content{
+    visibility: visible;
+    opacity: 1;
+    bottom: 0%;
+}
+#skills {
+    text-align: center;
+    font-size: 2.5em;
+    border-bottom: 3px solid aqua;
+  
+   display: flex;
+   justify-content: center;
+   width: 100px;
+   align-items: center;
+   margin: auto;
+   
+}
+.skills span{
+    position: relative;
+    top: 30px;
+    bottom: 10px;
+}
+.allSkills{
+    margin-top: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.skill_name {
+    font-size: 1.5em;
+    font-variant: small-caps;
+}
+.percent{
+    font-size: 1.5em;
+}
+.sks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.details{
+    width: 20em;
+    box-shadow: 2px 2px 6px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}
+.details input{
+    border: none;
+    border-bottom: 1px solid ;
+    line-height: 40px;
+    background: transparent;
+    outline: none;
+   
+}
+
+
+.lbl{
+    font-size: 13px;
+    position: relative;
+    bottom: -7px;
+    color: rgb(100, 98, 98);
+    
+}
+.lastbtn{
+    padding: 20px;
+}
+.lastbtn button{
+    padding: 5px 10px;
+    font-size: 1.1em;
+    background: transparent;
+    outline: none;
+    border: 1px solid ;
+    color: rgb(77, 73, 73);
+}
+.lastbtn button:hover{
+    background: rgb(196, 191, 191);
+}
+
+.content:hover label
+{
+   border-bottom: 1px solid aqua;
+   color: aqua;
+
+}
+#cont{
+    font-size: 2em;
+    border-bottom: 3px solid aqua;
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.imgfooter a{
+    width: 1.2em;
+    height: 1.2em;
+    text-decoration: none;
+    color: black;
+    margin: .5em;
+    transition: .5s;
+}
+.imgfooter a:hover{
+    color: rgb(244, 236, 247);
+}
+.footer{
+    text-align: center;
+    margin-top: 3em;
+    background: chocolate;
+    padding: 20px;
+}
+.tex{
+    font-size: 1.2em;
+    margin-top: 1.1em;
+    transition:.5s;
+}
+#red{
+    color: red;
+    font-size: 13px;
+
+}
+#black{
+    color: black;
+    font-size: 13px;
+
+}
+.red{
+    color: red;
+     font-size: 13px;
+
+}
+.black{
+    color: black;
+     font-size: 13px;
+}
+
+@media(max-width:450px){
+    #para{
+        width: 90%;
+    }
+    .me{
+        background-size: contain;
+    }
+    /* .allcards{
+        display: flex;
+        flex-direction: column; 
+    } */
+    .imgs{
+        width: 17em;
+        margin-left:auto;
+        height: auto;
+    }
+    .phpara p{
+        width: 95%;
+        font-size: 15px;
+    }
+    .ull{
+        min-height: 100vh;
+    }
+}
+
+@media screen and (max-width:1440px) and (min-width:768px){
+    .head{
+        background-image: url("./images/Nature-Wallpaper-HD-Desktop-free-download-620x349\ \(2\).png");
+        background-size: cover;
+        height: 70vh;
+        font-size: 1em;
+    }   
+    #bar{
+        color: blanchedalmond;
+    }
+    .text{
+        font-size: 1.8em;
+    }
+    .allcards{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 40%;
+    }
+    .me{
+        width: 50%;
+        margin: auto;
+        
+    }
+    .me::before{
+        content: '';
+       position: absolute;
+       background-image: url("./images/black-lighted-gaming-keyboard-841228.jpg");
+       height: 101%;
+      background-size: cover;
+        left:0px;
+        width: 100%;
+        /* background: wheat; */
+        z-index: -2;
+        
+        
+    }
+    .phpara p{
+        font-size: 1.3em;
+        padding-bottom: 10px;
+    }
+    .imgs{
+        margin: 3em;
+    }
+}
+
+@media screen and (max-width:960px) and (min-width:768px){
+    .imgs{
+       height:20em ;
+       width: 17em;
+    
+    }
+}
+    @media screen and (max-width:768px) and (min-width:400px){
+         .imgs{
+      margin:4em
+    }
+}
