@@ -429,7 +429,7 @@ p{
     .head{
         background-image: url("./images/Nature-Wallpaper-HD-Desktop-free-download-620x349\ \(2\).png");
         background-size: cover;
-        height: 70vh;
+        height: 75vh;
         font-size: 1em;
     }   
     #bar{
@@ -457,7 +457,7 @@ p{
         content: '';
        position: absolute;
        background-image: url("./images/black-lighted-gaming-keyboard-841228.jpg");
-       height: 101%;
+       height: 40em;
       background-size: cover;
         left:0px;
         width: 100%;
