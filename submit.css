@@ -126,8 +126,8 @@ a{
 }
 
 .cardImg{
-    width: 100px;
-    height: 80px;
+    width: 50%;
+    height: 40%;
     border-radius: 10%;
     box-shadow: 1px 1px 5px rgb(138, 133, 133);
 }
@@ -175,7 +175,7 @@ p{
     margin-top: 25px;
 }
 .me{
-    background-image: url("./images/silhouette-of-person-holding-glass-mason-jar-1274260.jpg");
+    position: relative;
     height:100% ;
     opacity: 0.8;
     background-size: cover;
@@ -183,30 +183,17 @@ p{
     width: 100%;
     z-index: -20;
 }
-.allMy{
-    /* background-image: url("./images/man-standing-with-two-hands-1191804.jpg"); */
-    /* background-size: contain; */
-    width: 20em;
-    
-    
-    background-repeat: no-repeat;
-    display: inline-block;
-    color: white;
-}
-#alt{
-    width: 12em;
-    height: 12em;
-    padding: 30px;
-    text-align: center;
-    border-radius: 30%;
-    margin: auto;
 
+#alt {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 .phpara p{
     font-size: 1.2em;
     margin-left: 30px;
     width: 350px;
-    color: white;
+    color: rgb(21, 19, 19);
     transition: .5 ease-in;
 }
 .phpara span{
@@ -217,16 +204,33 @@ p{
    border-bottom: 3px solid aqua;
    
 }
+.phpara {
+    
+    color: rgb(21, 19, 19);
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1; /* Ensure text is above the image */
+}
 #myself{
     color: aqua;
+    align-items: center;
+  
     text-align: center;
     font-size: 2.5em;
     padding: 10px;
     border-bottom: 3px solid aqua ;
-    width: 150px;
-    margin: auto;
     transition: .5s;
+    z-index: 1;
+   position: relative;
 }
+/* .photo {
+    position: relative;
+    overflow: hidden;
+} */
 
 .got img{
     width: 7em;
@@ -411,6 +415,7 @@ p{
         display: flex;
         flex-direction: column; 
     } */
+
     .imgs{
         width: 17em;
         margin-left:auto;
@@ -425,7 +430,7 @@ p{
     }
 }
 
-@media screen and (max-width:1440px) and (min-width:768px){
+@media screen and (max-width:2440px) and (min-width:768px){
     .head{
         background-image: url("./images/Nature-Wallpaper-HD-Desktop-free-download-620x349\ \(2\).png");
         background-size: cover;
@@ -453,19 +458,20 @@ p{
         margin: auto;
         
     }
-    .me::before{
+
+    /* .me::before{
         content: '';
        position: absolute;
-       background-image: url("./images/black-lighted-gaming-keyboard-841228.jpg");
+       background-image: url("./images/DESIGN.jpeg");
        height: 40em;
       background-size: cover;
         left:0px;
         width: 100%;
         /* background: wheat; */
-        z-index: -2;
+        /* z-index: -2; */
         
         
-    }
+    /* } */ */
     .phpara p{
         font-size: 1.3em;
         padding-bottom: 10px;
