@@ -110,7 +110,7 @@ let contactemail = document.querySelector("#email");
       
       }) 
         .then(function (message) { 
-          alert("Mail has been sent successfully") 
+          alert("Mail has been sent successfully.") 
         }); 
     } 
  
